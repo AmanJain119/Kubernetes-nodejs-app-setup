@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-demo
-          image: amanjain119/node-demo
+          image: amanjain119/node-demo:1.0
           ports:
             - containerPort: 3000
   strategy:
